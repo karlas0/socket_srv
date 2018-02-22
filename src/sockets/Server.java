@@ -18,7 +18,7 @@ public class Server {
 	public static void main(String[] args) throws IOException {
 		new Server(12345).run();
 	}
-
+	//*//
 	public Server(int port) {
 		this.port = port;
 		this.clients = new ArrayList<PrintStream>();
